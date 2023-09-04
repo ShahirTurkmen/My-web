@@ -1,0 +1,121 @@
+body {
+    background: linear-gradient(chartreuse ,springgreen, indianred, indigo, chocolate) no-repeat center center fixed;
+    padding-top: 15px;
+    color: var(--main-color);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: -30px;
+}
+
+.item {
+    margin: 0 0 10px;
+    position: relative;
+}
+
+
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+     animation: ggg 1s  both  1 ;
+}
+
+@keyframes ggg {
+    from{transform: translateY(120px)}
+    /* to{transform: translateY(109px)} */
+    
+}
+
+h1 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 50px;
+    color: green;
+}
+h1{
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: fef 1s alternate 1 both;
+     
+    color: blueviolet;
+    color: goldenrod;
+    
+}
+@keyframes fef{
+    from{transform: translateY(120px);  }
+    /* to{ transform: translateY(91px); } */
+}
+
+
+html {
+    padding: 0 20px; 
+}.img {
+
+    box-sizing: border-box;
+    width: 100% !important;
+    height: auto !important;
+    border: 5px solid var(--main-color);
+}    
+
+.caption {
+    display: none;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+}
+
+
+.caption a {
+    color: white;
+}
+
+.item:hover .caption {
+    display: block;
+}
+.item{
+    animation: dj 1s alternate 1 both ease;
+}
+@keyframes dj{
+    from{transform: translateY(120px);  }
+    /* to{ transform: translateY(100px); } */
+}
+/* a{
+ text-decoration: none;
+  font-language-override: 
+ 
+ font-size: 20px; 
+ color: darkorchid;
+ widows: 
+
+   
+    
+    animation: ssv 1s alternate both 1 steps(111px, 1s, both);
+}  */
+/* @keyframes ssv {} */
+/* a{
+        margin-right: 70px;
+     display: flex; 
+     flex-direction: column; 
+     justify-content: flex-end; 
+    text-align: left;
+    text-decoration: none;
+
+} */
+ /* Home{
+      
+   display: flex; 
+     flex-direction: column; 
+     justify-content: flex-end; 
+    
+}
+About{
+    
+}
+Pro{
+    margin-left: 1px;
+} */
