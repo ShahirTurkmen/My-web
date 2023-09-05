@@ -37,20 +37,28 @@
 
 body {
 
-  
+    /*
+    CHALLENGE: change the background to one you like
+    */
     
     --background-image: var(--sweets);
     
-   
+    /*
+    CHALLENGE: change the main color to one you like!
+    */
     --main-color: var(--olive);
     
-  
+     /* 
+    CHALLENGE: change the font to one you think is cool
+    */
     font-family: var(--scary-font);
 }
 
 
 .grid {
-   
+    /* 
+    BONUS CHALLENGE: adjust how many columns you'd like to have
+    */
    column-count: 2;
    column-gap: 10px;
 }
