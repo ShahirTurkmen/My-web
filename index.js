@@ -2,9 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 // import ReactrouterDOM from 'react-router-dom'
 const { useState, useEffect, useRef } = React;
-const clientID = "t-FQWYk2PUt13LidWIblzu7SNd9HVOQsK3QA7Lg1Mg4";
+const clientID = process.env.CLINT_ID;
 const utm = "?utm_source=scrimba_degree&utm_medium=referral"
-var API_KEY = 'NpRvp4rxQt7jYkbu95fWvCMrZKxyQKlWcNZfzeopGfI';
+var API_KEY = process.env.API_KEY;
 
 
 const loadData = (options) => {
